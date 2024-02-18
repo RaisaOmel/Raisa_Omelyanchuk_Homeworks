@@ -5,3 +5,4 @@ def set_up():
     print('вход в тест')
     yield
     print('выход из теста')
+
