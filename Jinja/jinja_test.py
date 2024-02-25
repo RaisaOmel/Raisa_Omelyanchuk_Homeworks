@@ -1,4 +1,4 @@
-from jinja2 import Template, Environment, FileSystemLoader   #, escape
+from jinja2 import Template   #, escape
 #### 1 способ
 # class Person:
 #     def __init__(self, name, age):
