@@ -6,6 +6,14 @@
 </head>
 <body>
 {% block content %}
-{% endblock %}
+БЛОК КОНТЕНТА перенос как super()
+{% block table_content %}
+<ul>
+    {% for li in List_table -%}
+        <li>{% block item scoped %}{{li}}{% endblock %}</li>
+    {% endfor -%}
+</ul>
+{% endblock table_content %}
+{% endblock content %}
 </body>
 </html>
